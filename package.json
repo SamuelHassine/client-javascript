@@ -2,7 +2,7 @@
   "name": "jscti",
   "version": "0.0.1",
   "description": "The unofficial OpenCTI Javascript client helps developers to use the OpenCTI API by providing easy to use methods and utils.",
-  "main": "./jscti/api/opencti_api_client",
+  "main": "./jscti/api/opencti_api_client.mjs",
   "repository": "https://github.com/sc0ttes/client-javascript.git",
   "author": "OpenCTI-Fan",
   "license": "Apache",

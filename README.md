@@ -1,13 +1,11 @@
 # OpenCTI client for Javascript
 
-<!---[![Website](https://img.shields.io/badge/website-opencti.io-blue.svg)](https://www.opencti.io)
-[![CircleCI](https://circleci.com/gh/OpenCTI-Platform/client-javascript.svg?style=shield)](https://circleci.com/gh/OpenCTI-Platform/client-javascript/tree/master)
-[![readthedocs](https://readthedocs.org/projects/opencti-client-for-javascript/badge/?style=flat)](https://opencti-client-for-javascript.readthedocs.io/en/latest/)
+[![Website](https://img.shields.io/badge/website-opencti.io-blue.svg)](https://www.opencti.io)
 [![GitHub release](https://img.shields.io/github/release/OpenCTI-Platform/client-javascript.svg)](https://github.com/OpenCTI-Platform/client-javascript/releases/latest)
-[![Number of PyPI downloads](https://img.shields.io/pypi/dm/pycti.svg)](https://pypi.javascript.org/pypi/pycti/)
-[![Slack Status](https://slack.filigran.io/badge.svg)](https://community.filigran.io)-->
+[![Number of NPM downloads](https://img.shields.io/npm/dm/jscti.svg)](https://www.npmjs.com/package/@opencti/jscti)
+[![Slack Status](https://slack.filigran.io/badge.svg)](https://community.filigran.io)
 
-The unofficial OpenCTI Javascript client helps developers to use the OpenCTI API by providing easy to use methods and utils.
+The official OpenCTI Javascript client helps developers to use the OpenCTI API by providing easy to use methods and utils.
 
 ## Install
 
@@ -37,8 +35,7 @@ $ npm link jscti
 $ pre-commit install
 # Create your feature/fix
 # Create tests for your changes
-$ pytest
-# Push you feature/fix on Github
+# Push your feature/fix on Github
 $ git add [file(s)]
 $ git commit -m "[descriptive message]"
 $ git push origin [branch-name]
@@ -54,37 +51,6 @@ To learn about how to use the OpenCTI Javascript client and read some examples a
 ### API reference
 
 To learn about the methods available for executing queries and retrieving their answers, refer to [the client API Reference](https://opencti-client-for-javascript.readthedocs.io/en/latest/pycti/pycti.html).
-
-## Tests
-
-### Install dependencies
-
-```bash
-$ pip install -r ./test-requirements.txt
-```
-
-[pytest](https://docs.pytest.org/en/7.2.x/) is used to launch the tests.
-
-### Launch tests
-
-#### Prerequisite
-
-Your OpenCTI API should be running.
-Your conftest.py should be configured with your API url and your token.
-
-#### Launching
-
-Unit tests
-
-```bash
-$ pytest ./tests/01-unit/
-```
-
-Integration testing
-
-```bash
-$ pytest ./tests/02-integration/
-```
 
 ## About
 

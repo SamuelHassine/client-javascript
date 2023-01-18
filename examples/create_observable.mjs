@@ -25,7 +25,6 @@ const mutation = `
   }
 `;
 
-(async () => {
-  let mutation_results = await opencti_api_client.mutation(mutation);
-  console.log(mutation_results.data.stixCyberObservableAdd);
-})();
+let mutation_results = await opencti_api_client.mutation(mutation);
+
+console.log(mutation_results.data.stixCyberObservableAdd);

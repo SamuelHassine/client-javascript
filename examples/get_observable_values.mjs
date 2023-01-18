@@ -28,7 +28,6 @@ const query = `
   }
 `;
 
-(async () => {
-    let query_results = await opencti_api_client.query(query);
-    console.log(query_results.data.stixCyberObservables.edges);
-  })();
+let query_results = await opencti_api_client.query(query);
+
+console.log(query_results.data.stixCyberObservables.edges);

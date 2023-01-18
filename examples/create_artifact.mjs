@@ -22,9 +22,8 @@ const mutation = `
   }
 `;
 
-const variables = { "file": blob };
+const variables = { file: blob };
 
-(async () => {
-  let mutation_results = await opencti_api_client.mutation(mutation, variables);
-  console.log(mutation_results.data.artifactImport);
-})();
+let mutation_results = await opencti_api_client.mutation(mutation, variables);
+
+console.log(mutation_results.data.artifactImport);
